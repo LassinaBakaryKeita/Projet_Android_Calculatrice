@@ -55,4 +55,42 @@ Each screen (activity) dynamically updates its **title** based on the selected f
 ---
 
 ## 🧩 Project Structure
+<img width="967" height="571" alt="image" src="https://github.com/user-attachments/assets/532a47fd-8c6b-4960-9736-3ceec56da923" />
+
+---
+
+## 💡 Notes
+
+* The UI buttons are customized via **drawable XML** to give a rounded, modern style.
+* The **background colors** and **titles** are fully customizable.
+* The application supports both **portrait** and **landscape** orientations.
+* No Internet connection is required — everything runs **locally**.
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/Lassina-Android-Calculator.git
+   Open the project in Android Studio.
+
+2.Sync Gradle and build the project.
+
+3.Run the app on an Android emulator or physical device.
+
+🤝 Contributions
+
+Contributions are welcome!
+If you’d like to improve the design, add more converters, or optimize the logic, feel free to:
+
+Fork the repository
+
+Create a new branch
+
+Submit a pull request 🚀
+
+
+
 
