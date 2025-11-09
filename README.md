@@ -85,11 +85,11 @@ Each screen (activity) dynamically updates its **title** based on the selected f
 Contributions are welcome!
 If you’d like to improve the design, add more converters, or optimize the logic, feel free to:
 
-Fork the repository
+1.Fork the repository
 
-Create a new branch
+2.Create a new branch
 
-Submit a pull request 🚀
+3.Submit a pull request 🚀
 
 
 
