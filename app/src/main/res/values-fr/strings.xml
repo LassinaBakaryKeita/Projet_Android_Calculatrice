@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculatrice</string>
+
+    <string name="login">S\'identifier:</string>
+    <string name="password">Mot de passe:</string>
+    <string name="btn">Valider</string>
+    <string name="hintlogin">Entrez votre identifiant ici</string>
+    <string name="hintpassword">Entrez votre mot de passe ici</string>
+
+    <string name="toastAuthentification">Nom ou mot de passe incorrect</string>
+
+    <string name="menu1">Standard</string>
+    <string name="menu2">Température</string>
+    <string name="menu3">Heure</string>
+
+    <string name="nomActiviteCalculatrice">Application de Calcul</string>
+    <string name="nomActiviteTemps">Convertisseur de temps</string>
+    <string name="nomActiviteTemperature">Convertisseur de température</string>
+
+    <string name="nomInterfaceCalculatrice">Calculatrice Standard </string>
+    <string name="nomInterfaceTemperature">Température</string>
+    <string name="nomInterfaceTemps">Temps</string>
+</resources>

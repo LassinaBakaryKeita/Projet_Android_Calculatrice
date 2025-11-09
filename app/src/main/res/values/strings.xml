@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <string name="login">Login:</string>
+    <string name="password">Password:</string>
+    <string name="btn">Okay</string>
+    <string name="hintlogin">Enter your login here</string>
+    <string name="hintpassword">Enter your password here</string>
+
+    <string name="toastAuthentification">Incorrect username or password</string>
+
+    <string name="menu1">Standard</string>
+    <string name="menu2">Temperature</string>
+    <string name="menu3">Time</string>
+
+    <string name="nomActiviteCalculatrice">Calculator Application</string>
+    <string name="nomActiviteTemps">Time converter</string>
+    <string name="nomActiviteTemperature">Temperature converter</string>
+
+    <string name="nomInterfaceCalculatrice">Standard Calculator </string>
+    <string name="nomInterfaceTemperature">Temperature</string>
+    <string name="nomInterfaceTemps">Time</string>
+
+    <string-array name="entree_temperature">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="sortie_temperature">
+        <item>Fahrenheit</item>
+        <item>Celsius</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="entree_temps">
+        <item>Semaine(s)</item>
+        <item>Jour(s)</item>
+        <item>Heure(s)</item>
+        <item>Minute(s)</item>
+        <item>Seconde(s)</item>
+    </string-array>
+
+    <string-array name="sortie_temps">
+        <item>Jour(s)</item>
+        <item>Semaine(s)</item>
+        <item>Heure(s)</item>
+        <item>Minute(s)</item>
+        <item>Seconde(s)</item>
+    </string-array>
+
+</resources>

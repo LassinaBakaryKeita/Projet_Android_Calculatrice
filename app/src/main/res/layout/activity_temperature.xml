@@ -1,0 +1,225 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="@string/nomInterfaceTemperature"
+        android:gravity="center"
+        android:background="@color/material_dynamic_neutral80"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+    <!-- Valeur saisie-->
+    <TextView
+        android:id="@+id/ValeurEntree"
+        android:layout_width="360dp"
+        android:layout_height="20dp"
+        android:text="0"
+        android:background="@color/material_dynamic_neutral80"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="end"/>
+
+    <!-- Choix de l’unité d’entrée -->
+    <Spinner
+        android:id="@+id/UniteEntree"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/entree_temperature"
+        android:spinnerMode="dropdown"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Valeur convertie-->
+    <TextView
+        android:id="@+id/ValeurConvertie"
+        android:layout_width="360dp"
+        android:layout_height="20dp"
+        android:text="0"
+        android:background="@color/material_dynamic_neutral80"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="end"/>
+
+    <Spinner
+        android:id="@+id/UniteSortie"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/sortie_temperature"
+        android:spinnerMode="dropdown"
+        android:layout_marginBottom="50dp"/>
+
+
+    <!-- 1ère ligne-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3"
+            android:layout_marginRight="5dp"/>
+
+
+    </LinearLayout>
+
+    <!-- 2ème ligne-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="6"
+            android:layout_marginRight="5dp"/>
+
+
+
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="7"
+            android:layout_marginRight="5dp"/>
+
+
+
+    </LinearLayout>
+
+    <!-- 3ème ligne-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="8"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="9"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btnVirgule"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=","
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btnPlusMoins"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+/-"
+            android:layout_marginRight="5dp" />
+
+
+
+    </LinearLayout>
+
+    <!-- 4ème ligne-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <Button
+            android:id="@+id/btnC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="C"
+            android:layout_marginRight="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnEffacer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="⌫" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
