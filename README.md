@@ -63,7 +63,6 @@ Each screen (activity) dynamically updates its **title** based on the selected f
 
 * The UI buttons are customized via **drawable XML** to give a rounded, modern style.
 * The **background colors** and **titles** are fully customizable.
-* The application supports both **portrait** and **landscape** orientations.
 * No Internet connection is required — everything runs **locally**.
 
 ---
