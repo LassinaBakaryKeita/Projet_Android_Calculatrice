@@ -93,7 +93,7 @@ If you’d like to improve the design, add more converters, or optimize the logi
 
 ---
 
-## 📄 Capture d'ecran 
+## 📸 Screenshots
 
 ![WhatsApp Image 2025-11-09 à 17 14 11_50649408](https://github.com/user-attachments/assets/b36ba68b-62e4-408a-83fa-dfe8baa4350a)
 
